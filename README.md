@@ -29,9 +29,19 @@ Reference for each minted data source for your output data.
 ## Contributing models
 | Model | Version | Repository Link | DOI |
 |-------|---------|-----------------|-----|
-| metis | v1.0.0 | www.github.com/JGCRI/metis | <link to DOI dataset> |
+| metis | v1.0.0 | www.github.com/JGCRI/metis/tree/wild-etal_2020_ColoradoNexus | <link to DOI dataset> |
 | GCAM | v5.3 | www.github.com/JGCRI/gcam-core | <link to DOI dataset> |
   
 
 ## Reproduce my experiement
-Fill in detailed info here or link to other documentation that is a thorough walkthrough of how to use what is in this repository to reproduce your experiment.
+1. Clone and install metis from www.github.com/JGCRI/metis. This Metis GitHub repository has detailed installation instructions.
+
+>>git clone https://github.com/JGCRI/metis.git
+
+2. Checkout the metis model version used to run this publication's experiments. The git "tag" that points to the version/commit of Metis used to run this publication's experiments is "wild-etal_2020_ColoradoNexus". For this paper, please run the master branch.
+
+>> git checkout tags/wild-etal_2020_ColoradoNexus -b master
+
+3. To run the I/O experiment, open Metis, then run the metis.masterX_io_colorado.R script.
+
+4. To produce the figures, run the scripts within the /figures directory.
