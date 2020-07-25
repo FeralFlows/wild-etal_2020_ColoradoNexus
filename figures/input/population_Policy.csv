@@ -1,0 +1,11 @@
+scenario,region,subRegion,sources,param,units,class,x,value,subRegType,classPalette1,classLabel1,classPalette,classLabel
+reference,Argentina,Mendoza_alta_riogrande,localData,population,persons,ElecSupply,2010,1892,localBasin,NA,NA,YlOrRd,population
+reference,Argentina,Mendoza_alta_barrancas,localData,population,persons,ElecSupply,2010,1409,localBasin,NA,NA,YlOrRd,population
+reference,Argentina,Neuquen_media,localData,population,persons,ElecSupply,2010,20651,localBasin,NA,NA,YlOrRd,population
+reference,Argentina,LaPampa_media,localData,population,persons,ElecSupply,2010,9621,localBasin,NA,NA,YlOrRd,population
+reference,Argentina,RioNegro_media,localData,population,persons,ElecSupply,2010,17123,localBasin,NA,NA,YlOrRd,population
+reference,Argentina,RioNegro_baja,localData,population,persons,ElecSupply,2010,13773,localBasin,NA,NA,YlOrRd,population
+reference,Argentina,Corfo,localData,population,persons,ElecSupply,2010,10910,localBasin,NA,NA,YlOrRd,population
+reference,Argentina,LaPampa_baja,localData,population,persons,ElecSupply,2010,0.0001,localBasin,NA,NA,YlOrRd,population
+reference,Argentina,Mendoza_media,localData,population,persons,ElecSupply,2010,0.0001,localBasin,NA,NA,YlOrRd,population
+reference,Argentina,Neuquen_alta_barrancas,localData,population,persons,ElecSupply,2010,0.0001,localBasin,NA,NA,YlOrRd,population
