@@ -1,0 +1,5 @@
+sectorFrom,region,scenario,x,subRegion,sectorTo,value
+W_SW_Upstream,Argentina,Reference,0,RioNegro_baja,Ag_cereals,0.00783223319899244
+W_SW_Upstream,Argentina,Reference,0,RioNegro_baja,Ag_pasture,0.00426693908675799
+W_SW_Upstream,Argentina,Reference,0,RioNegro_baja,Ag_vegetables,0.00270248754098361
+W_SW_Upstream,Argentina,Reference,0,RioNegro_baja,Ag_fruittrees,0.00270248751322751

@@ -1,0 +1,8 @@
+sectorFrom,supplySector,scenario,x,units,region,subRegion,param,sectorTo,value,normValue,fromLabel,legendLabel
+Ag_cereals,Agriculture,Policy,0,km2,Argentina,LaPampa_media,param,total,28.5,0.365384615384615,Ag_cereals 28.5 km2,Ag_cereals km2
+Ag_fruittrees,Agriculture,Policy,0,km2,Argentina,LaPampa_media,param,total,31.1,0.398717948717949,Ag_fruittrees 31.1 km2,Ag_fruittrees km2
+Ag_pasture,Agriculture,Policy,0,km2,Argentina,LaPampa_media,param,total,13.2,0.169230769230769,Ag_pasture 13.2 km2,Ag_pasture km2
+Ag_specialty,Agriculture,Policy,0,km2,Argentina,LaPampa_media,param,total,5.2,0.0666666666666667,Ag_specialty 5.2 km2,Ag_specialty km2
+Electricity_Hydro,Electricity,Policy,0,GWh,Argentina,LaPampa_media,param,total,157.78705,1,Electricity_Hydro 157.8 GWh,Electricity_Hydro GWh
+W_SW_Reservoir,Water,Policy,0,km3,Argentina,LaPampa_media,param,total,0.233,0.0933203162786686,W_SW_Reservoir 0.23 km3,W_SW_Reservoir km3
+W_SW_Upstream,Water,Policy,0,km3,Argentina,LaPampa_media,param,total,2.263776793,0.906679683721331,W_SW_Upstream 2.3 km3,W_SW_Upstream km3

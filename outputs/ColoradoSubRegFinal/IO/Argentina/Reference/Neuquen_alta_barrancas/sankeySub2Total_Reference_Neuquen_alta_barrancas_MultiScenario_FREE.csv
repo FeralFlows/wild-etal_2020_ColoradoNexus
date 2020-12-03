@@ -1,0 +1,5 @@
+sectorFrom,supplySector,scenario,x,units,region,subRegion,param,sectorTo,value,normValue,fromLabel,legendLabel
+Ag_forest,Agriculture,Reference,0,km2,Argentina,Neuquen_alta_barrancas,param,total,0.15,0.220588235294118,Ag_forest 0.15 km2,Ag_forest km2
+Ag_pasture,Agriculture,Reference,0,km2,Argentina,Neuquen_alta_barrancas,param,total,0.53,0.779411764705882,Ag_pasture 0.53 km2,Ag_pasture km2
+Electricity_Import,Electricity,Reference,0,GWh,Argentina,Neuquen_alta_barrancas,param,total,12.938217,1,Electricity_Import 12.9 GWh,Electricity_Import GWh
+W_SW_Runoff,Water,Reference,0,km3,Argentina,Neuquen_alta_barrancas,param,total,0.828375,1,W_SW_Runoff 0.83 km3,W_SW_Runoff km3

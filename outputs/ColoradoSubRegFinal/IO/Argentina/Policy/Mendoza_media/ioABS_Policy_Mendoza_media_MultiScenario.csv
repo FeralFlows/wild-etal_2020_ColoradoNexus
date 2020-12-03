@@ -1,0 +1,11 @@
+sectorFrom,supplySector,scenario,x,units,region,subRegion,param,sectorTo,value,sectorToAgg
+W_SW_Upstream,Water,Policy,0,km3,Argentina,Mendoza_media,param,municipal,0.0012,municipal
+W_SW_Upstream,Water,Policy,0,km3,Argentina,Mendoza_media,param,downstream,2.297519843,downstream
+W_SW_Upstream,Water,Policy,0,km3,Argentina,Mendoza_media,param,total,2.298719843,total
+W_SW_Upstream,Water,Policy,0,km3,Argentina,Mendoza_media,param,cap,2.298719843,cap
+W_SW_Upstream,Water,Policy,0,km3,Argentina,Mendoza_media,param,capOrig,2.298719843,capOrig
+Water_all,Water,Policy,0,km3,Argentina,Mendoza_media,param,municipal,0.0012,municipal
+Water_all,Water,Policy,0,km3,Argentina,Mendoza_media,param,downstream,2.297519843,downstream
+Water_all,Water,Policy,0,km3,Argentina,Mendoza_media,param,total,2.298719843,total
+Water_all,Water,Policy,0,km3,Argentina,Mendoza_media,param,cap,2.298719843,cap
+Water_all,Water,Policy,0,km3,Argentina,Mendoza_media,param,capOrig,2.298719843,capOrig

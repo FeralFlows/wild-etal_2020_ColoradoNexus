@@ -1,0 +1,11 @@
+scenario,subRegion,param,class,x,units,value
+Reference,Corfo,irrigation_water_demand,Irrigation,2010,km3,1.899899999
+Reference,LaPampa_baja,irrigation_water_demand,Irrigation,2010,km3,0.005039999
+Reference,LaPampa_media,irrigation_water_demand,Irrigation,2010,km3,0.232999999
+Reference,Mendoza_alta_barrancas,irrigation_water_demand,Irrigation,2010,km3,0.001
+Reference,Mendoza_alta_riogrande,irrigation_water_demand,Irrigation,2010,km3,0
+Reference,Mendoza_media,irrigation_water_demand,Irrigation,2010,km3,0
+Reference,Neuquen_alta_barrancas,irrigation_water_demand,Irrigation,2010,km3,0.0087
+Reference,Neuquen_media,irrigation_water_demand,Irrigation,2010,km3,0.0656
+Reference,RioNegro_baja,irrigation_water_demand,Irrigation,2010,km3,0.269755
+Reference,RioNegro_media,irrigation_water_demand,Irrigation,2010,km3,0.1785

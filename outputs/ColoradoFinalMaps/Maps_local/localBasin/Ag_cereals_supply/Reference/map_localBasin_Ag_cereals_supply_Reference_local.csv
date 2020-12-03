@@ -1,0 +1,11 @@
+scenario,subRegion,param,class,x,units,value
+Reference,Corfo,Ag_cereals_supply,Ag_cereals_supply,2010,land (km^2),490
+Reference,LaPampa_baja,Ag_cereals_supply,Ag_cereals_supply,2010,land (km^2),0
+Reference,LaPampa_media,Ag_cereals_supply,Ag_cereals_supply,2010,land (km^2),28.5
+Reference,Mendoza_alta_barrancas,Ag_cereals_supply,Ag_cereals_supply,2010,land (km^2),0
+Reference,Mendoza_alta_riogrande,Ag_cereals_supply,Ag_cereals_supply,2010,land (km^2),0
+Reference,Mendoza_media,Ag_cereals_supply,Ag_cereals_supply,2010,land (km^2),0
+Reference,Neuquen_alta_barrancas,Ag_cereals_supply,Ag_cereals_supply,2010,land (km^2),0
+Reference,Neuquen_media,Ag_cereals_supply,Ag_cereals_supply,2010,land (km^2),0.2
+Reference,RioNegro_baja,Ag_cereals_supply,Ag_cereals_supply,2010,land (km^2),19.85
+Reference,RioNegro_media,Ag_cereals_supply,Ag_cereals_supply,2010,land (km^2),0.6

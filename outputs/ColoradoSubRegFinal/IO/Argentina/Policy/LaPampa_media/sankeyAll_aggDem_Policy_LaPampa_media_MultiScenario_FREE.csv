@@ -1,0 +1,10 @@
+sectorTo,sectorFrom,supplySector,scenario,x,region,subRegion,units,param,value,normValue,fromLabel,legendLabel
+Ag,Water_all,Water,Policy,0,Argentina,LaPampa_media,km3,param,0.233,0.0933203162786686,Water_all 2.5 km3,Water_all km3
+commercial,Electricity_all,Electricity,Policy,0,Argentina,LaPampa_media,GWh,param,3.19665,0.0202592671578561,Electricity_all 157.8 GWh,Electricity_all GWh
+downstream,Water_all,Water,Policy,0,Argentina,LaPampa_media,km3,param,2.262116793,0.906014826532393,Water_all 2.5 km3,Water_all km3
+export,Agriculture_all,Agriculture,Policy,0,Argentina,LaPampa_media,km2,param,78,1,Agriculture_all 78 km2,Agriculture_all km2
+export,Electricity_all,Electricity,Policy,0,Argentina,LaPampa_media,GWh,param,134.218,0.850627475448714,Electricity_all 157.8 GWh,Electricity_all GWh
+industrial,Electricity_all,Electricity,Policy,0,Argentina,LaPampa_media,GWh,param,6.567185,0.0416205575806126,Electricity_all 157.8 GWh,Electricity_all GWh
+municipal,Water_all,Water,Policy,0,Argentina,LaPampa_media,km3,param,0.00166,0.000664857188938154,Water_all 2.5 km3,Water_all km3
+other,Electricity_all,Electricity,Policy,0,Argentina,LaPampa_media,GWh,param,4.568789,0.0289554117400636,Electricity_all 157.8 GWh,Electricity_all GWh
+residential,Electricity_all,Electricity,Policy,0,Argentina,LaPampa_media,GWh,param,9.236426,0.0585372880727538,Electricity_all 157.8 GWh,Electricity_all GWh

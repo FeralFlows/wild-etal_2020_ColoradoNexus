@@ -26,10 +26,9 @@ if("tidyverse" %in% rownames(installed.packages()) == F){install.packages("tidyv
 library(tidyverse)
 
 # This script uses MetisWatMod to build the simulation network then balance water flows in a historical year
-
-source(paste(getwd(),'/extras/MetisWatMod.R',sep=""))
-library(tidyverse)
-data <- paste(getwd(),'/datafiles/io/network_data.csv',sep="")
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+source(paste(getwd(),'/metis_input/extras/MetisWatMod.R',sep=""))
+data <- paste(getwd(),'/metis_input/dataFiles/io/network_data.csv',sep="")
 
 # Simulation network/order
 output <- network_main(data)
@@ -44,8 +43,8 @@ from_to <- output$from_to
 scenarios <- c('Reference', 'Policy')
 for(scen in scenarios){
   scenario_name <- scen  # 'Reference'
-  demand_data_file = paste(getwd(),'/datafiles/io/colorado_', scenario_name, '_', 'NEW.csv',sep="")  # _AgPolicy
-  capacity_data_file = paste(getwd(),'/datafiles/io/colorado_capacity_data.csv',sep="")
+  demand_data_file = paste(getwd(),'/metis_input/datafiles/io/colorado_', scenario_name, '_', 'NEW.csv',sep="")  # _AgPolicy
+  capacity_data_file = paste(getwd(),'/metis_input/datafiles/io/colorado_capacity_data.csv',sep="")
   demand_data <- read.csv(demand_data_file)
   demand_data <- demand_data %>% as_tibble()
   capacity_data <- read.csv(capacity_data_file)
@@ -104,7 +103,7 @@ for(scen in scenarios){
     sr <- c(subReg)
     mapping_df <- mapping_df %>% mutate(value = if_else(subRegion==sr, demand/surfaceSupply, value))
   }
-  save_dir <- 'C:/Users/twild/all_git_repositories/metis/metis/outputs/Maps/Tables'
+  save_dir <- paste(getwd(), 'outputs/Maps/Tables', sep = '/')
   export_df <- mapping_df %>%
     filter(param %in% params) %>%
     select(-classPalette1)  # Deal with Palette separately in map
@@ -127,7 +126,7 @@ for(scen in scenarios){
   new_df_append['subRegType'] <- 'localBasin'
   new_df_append['x'] <- 2010
   new_df_append['value'] <- 0
-  new_df_append['classPalette'] <- 'pal_ColoradoWater'
+  new_df_append['classPalette'] <- 'pal_wet'
   new_df_append['classLabel'] <- 'Runoff'
   for (subReg in subregions){
     df <- ioTable0 %>%
@@ -152,7 +151,7 @@ for(scen in scenarios){
   new_df_append['subRegType'] <- 'localBasin'
   new_df_append['x'] <- 2010
   new_df_append['value'] <- 0
-  new_df_append['classPalette'] <- 'pal_ColoradoWater'
+  new_df_append['classPalette'] <- 'pal_wet'
   new_df_append['classLabel'] <- 'IrrigationDemand'
   for (subReg in subregions){
     df <- ioTable0 %>%
@@ -177,7 +176,7 @@ for(scen in scenarios){
   new_df_append['subRegType'] <- 'localBasin'
   new_df_append['x'] <- 2010
   new_df_append['value'] <- 0
-  new_df_append['classPalette'] <- 'pal_ColoradoWater'
+  new_df_append['classPalette'] <- 'pal_wet'
   new_df_append['classLabel'] <- 'MunicipalWatDemand'
   for (subReg in subregions){
     df <- ioTable0 %>%
@@ -203,7 +202,7 @@ for(scen in scenarios){
   new_df_append['subRegType'] <- 'localBasin'
   new_df_append['x'] <- 2010
   new_df_append['value'] <- 0
-  new_df_append['classPalette'] <- 'pal_ColoradoWater'
+  new_df_append['classPalette'] <- 'pal_wet'
   new_df_append['classLabel'] <- 'ElectricityWatDemand'
   for (subReg in subregions){
     df <- ioTable0 %>%
@@ -229,7 +228,7 @@ for(scen in scenarios){
   new_df_append['subRegType'] <- 'localBasin'
   new_df_append['x'] <- 2010
   new_df_append['value'] <- 0
-  new_df_append['classPalette'] <- 'pal_ColoradoWater'
+  new_df_append['classPalette'] <- 'pal_wet'
   new_df_append['classLabel'] <- 'LivestockWatDemand'
   for (subReg in subregions){
     df <- ioTable0 %>%
@@ -254,7 +253,7 @@ for(scen in scenarios){
   new_df_append['subRegType'] <- 'localBasin'
   new_df_append['x'] <- 2010
   new_df_append['value'] <- 0
-  new_df_append['classPalette'] <- 'pal_ColoradoWater'
+  new_df_append['classPalette'] <- 'pal_wet'
   new_df_append['classLabel'] <- 'AvailableWater'
   for (subReg in subregions){
     df <- ioTable0 %>%
@@ -279,7 +278,7 @@ for(scen in scenarios){
   new_df_append['subRegType'] <- 'localBasin'
   new_df_append['x'] <- 2010
   new_df_append['value'] <- 0
-  new_df_append['classPalette'] <- 'pal_ColoradoWater'
+  new_df_append['classPalette'] <- 'pal_wet'
   new_df_append['classLabel'] <- 'WaterDemand'
   for (subReg in subregions){
     df <- ioTable0 %>%
@@ -304,7 +303,7 @@ for(scen in scenarios){
   new_df_append['subRegType'] <- 'localBasin'
   new_df_append['x'] <- 2010
   new_df_append['value'] <- 0
-  new_df_append['classPalette'] <- 'pal_ColoradoTotalElecDemand'
+  new_df_append['classPalette'] <- 'pal_hot'
   new_df_append['classLabel'] <- 'ElecSupply'
   for (subReg in subregions){
     df <- ioTable0 %>%
@@ -337,7 +336,7 @@ for(scen in scenarios){
     new_df_append['subRegType'] <- 'localBasin'
     new_df_append['x'] <- 2010
     new_df_append['value'] <- 0
-    new_df_append['classPalette'] <- 'pal_ColoradoElecDemand'
+    new_df_append['classPalette'] <- 'pal_hot'
     new_df_append['classLabel'] <- params
     for (subReg in subregions){
       df <- demData %>%
@@ -369,7 +368,7 @@ for(scen in scenarios){
   new_df_append['subRegType'] <- 'localBasin'
   new_df_append['x'] <- 2010
   new_df_append['value'] <- 0
-  new_df_append['classPalette'] <- 'pal_ColoradoTotalElecDemand'
+  new_df_append['classPalette'] <- 'pal_hot'
   new_df_append['classLabel'] <- params
   for (subReg in subregions){
     df <- demData %>%
@@ -399,7 +398,7 @@ for(scen in scenarios){
   new_df_append['subRegType'] <- 'localBasin'
   new_df_append['x'] <- 2010
   new_df_append['value'] <- 0
-  new_df_append['classPalette'] <- 'Greens'
+  new_df_append['classPalette'] <- 'pal_green'
   new_df_append['classLabel'] <- 'AgSupply'
   for (subReg in subregions){
     df <- ioTable0 %>%
@@ -425,7 +424,7 @@ for(scen in scenarios){
   new_df_append['subRegType'] <- 'localBasin'
   new_df_append['x'] <- 2010
   new_df_append['value'] <- 0
-  new_df_append['classPalette'] <- 'Greens'
+  new_df_append['classPalette'] <- 'pal_green'
   new_df_append['classLabel'] <- 'AgSupply'
   for (subReg in subregions){
     df <- ioTable0 %>%
@@ -461,7 +460,7 @@ for(scen in scenarios){
     new_df_append['subRegType'] <- 'localBasin'
     new_df_append['x'] <- 2010
     new_df_append['value'] <- 0
-    new_df_append['classPalette'] <- 'pal_ColoradoLandAlloc'
+    new_df_append['classPalette'] <- 'pal_green'
     new_df_append['classLabel'] <- params
     for (subReg in subregions){
       df <- ioTable0 %>%
@@ -615,7 +614,7 @@ for(scen in scenarios){
           t2[[colname]][index] <- actual_regional_imports*fraction  # scale down imported values to reflect that some local supply exists
           diff <- orig_imp - t2[[colname]][index]  # difference to be allocated from exports back to demand sectors
           # add this diff back to the demand sector, but from a supply subsector row
-          #Reassign exports to demand sectors
+          # Reassign exports to demand sectors
           index_supply_subsec <- grepl('Electricity_', t2$supplySubSector) & !grepl('_Import', t2$supplySubSector) # index of electricity imports row
           t2[[colname]][index_supply_subsec] <- t2[[colname]][index_supply_subsec] + t2$export[index_supply_subsec]*fraction
         }

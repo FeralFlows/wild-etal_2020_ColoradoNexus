@@ -1,0 +1,4 @@
+sectorFrom,supplySector,scenario,x,units,region,subRegion,param,sectorTo,value,normValue,fromLabel,legendLabel
+Agriculture_all,Agriculture,Policy,0,km2,Argentina,RioNegro_baja,param,total,102.393,1,Agriculture_all 102.4 km2,Agriculture_all km2
+Electricity_all,Electricity,Policy,0,GWh,Argentina,RioNegro_baja,param,total,106.327429,1,Electricity_all 106.3 GWh,Electricity_all GWh
+Water_all,Water,Policy,0,km3,Argentina,RioNegro_baja,param,total,2.172311793,1,Water_all 2.2 km3,Water_all km3

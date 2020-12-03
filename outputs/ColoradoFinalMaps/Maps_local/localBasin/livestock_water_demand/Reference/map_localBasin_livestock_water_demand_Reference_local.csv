@@ -1,0 +1,11 @@
+scenario,subRegion,param,class,x,units,value
+Reference,Corfo,livestock_water_demand,Livestock,2010,km3,0.005064497
+Reference,LaPampa_baja,livestock_water_demand,Livestock,2010,km3,0
+Reference,LaPampa_media,livestock_water_demand,Livestock,2010,km3,0
+Reference,Mendoza_alta_barrancas,livestock_water_demand,Livestock,2010,km3,0
+Reference,Mendoza_alta_riogrande,livestock_water_demand,Livestock,2010,km3,0
+Reference,Mendoza_media,livestock_water_demand,Livestock,2010,km3,0
+Reference,Neuquen_alta_barrancas,livestock_water_demand,Livestock,2010,km3,0
+Reference,Neuquen_media,livestock_water_demand,Livestock,2010,km3,0
+Reference,RioNegro_baja,livestock_water_demand,Livestock,2010,km3,0
+Reference,RioNegro_media,livestock_water_demand,Livestock,2010,km3,0

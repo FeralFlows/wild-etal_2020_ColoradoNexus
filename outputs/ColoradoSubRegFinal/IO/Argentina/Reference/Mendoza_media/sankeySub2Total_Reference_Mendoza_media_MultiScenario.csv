@@ -1,0 +1,2 @@
+sectorFrom,supplySector,scenario,x,units,region,subRegion,param,sectorTo,value,normValue,fromLabel,legendLabel
+W_SW_Upstream,Water,Reference,0,km3,Argentina,Mendoza_media,param,total,2.298719843,1,W_SW_Upstream 2.3 km3,W_SW_Upstream km3

@@ -1,0 +1,5 @@
+sectorFrom,region,scenario,x,subRegion,sectorTo,value
+W_SW_Upstream,Argentina,Policy,0,LaPampa_baja,Ag_pasture,0.00167756505494204
+W_SW_Upstream,Argentina,Policy,0,LaPampa_baja,Ag_vegetables,0.00106249434916342
+W_SW_Upstream,Argentina,Policy,0,LaPampa_baja,Ag_specialty,0.00106249434916342
+W_SW_Upstream,Argentina,Policy,0,LaPampa_baja,Electricity_RefLiqDiesel,1.5176330628076e-07

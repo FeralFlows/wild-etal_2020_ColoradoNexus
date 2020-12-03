@@ -1,0 +1,7 @@
+sectorTo,sectorFrom,supplySector,scenario,x,region,subRegion,units,param,value,normValue,fromLabel,legendLabel
+commercial,Electricity_all,Electricity,Policy,0,Argentina,Mendoza_alta_riogrande,GWh,param,6.808592,0.104141649067783,Electricity_all 65.4 GWh,Electricity_all GWh
+downstream,Water_all,Water,Policy,0,Argentina,Mendoza_alta_riogrande,km3,param,3.502899686,0.999999910359987,Water_all 3.5 km3,Water_all km3
+Electricity,Water_all,Water,Policy,0,Argentina,Mendoza_alta_riogrande,km3,param,3.14e-07,8.96400125610209e-08,Water_all 3.5 km3,Water_all km3
+industrial,Electricity_all,Electricity,Policy,0,Argentina,Mendoza_alta_riogrande,GWh,param,23.004598004,0.351869633586208,Electricity_all 65.4 GWh,Electricity_all GWh
+other,Electricity_all,Electricity,Policy,0,Argentina,Mendoza_alta_riogrande,GWh,param,11.736356004,0.179514864204396,Electricity_all 65.4 GWh,Electricity_all GWh
+residential,Electricity_all,Electricity,Policy,0,Argentina,Mendoza_alta_riogrande,GWh,param,23.828639002,0.364473853141614,Electricity_all 65.4 GWh,Electricity_all GWh

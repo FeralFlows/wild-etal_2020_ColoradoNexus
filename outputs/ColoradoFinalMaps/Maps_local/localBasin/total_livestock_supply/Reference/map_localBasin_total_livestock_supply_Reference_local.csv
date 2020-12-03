@@ -1,0 +1,11 @@
+scenario,subRegion,param,class,x,units,value
+Reference,Corfo,total_livestock_supply,total_livestock_supply,2010,livestock (head),262979
+Reference,LaPampa_baja,total_livestock_supply,total_livestock_supply,2010,livestock (head),0
+Reference,LaPampa_media,total_livestock_supply,total_livestock_supply,2010,livestock (head),0
+Reference,Mendoza_alta_barrancas,total_livestock_supply,total_livestock_supply,2010,livestock (head),0
+Reference,Mendoza_alta_riogrande,total_livestock_supply,total_livestock_supply,2010,livestock (head),0
+Reference,Mendoza_media,total_livestock_supply,total_livestock_supply,2010,livestock (head),0
+Reference,Neuquen_alta_barrancas,total_livestock_supply,total_livestock_supply,2010,livestock (head),0
+Reference,Neuquen_media,total_livestock_supply,total_livestock_supply,2010,livestock (head),0
+Reference,RioNegro_baja,total_livestock_supply,total_livestock_supply,2010,livestock (head),0
+Reference,RioNegro_media,total_livestock_supply,total_livestock_supply,2010,livestock (head),0

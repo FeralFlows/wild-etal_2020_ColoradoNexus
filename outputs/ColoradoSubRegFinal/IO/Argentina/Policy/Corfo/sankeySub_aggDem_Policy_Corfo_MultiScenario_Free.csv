@@ -1,0 +1,17 @@
+sectorTo,sectorFrom,supplySector,scenario,x,region,subRegion,units,param,value,normValue,fromLabel,legendLabel
+Ag,W_SW_Upstream,Water,Policy,0,Argentina,Corfo,km3,param,1.8999,0.593894191540755,W_SW_Upstream 3.2 km3,W_SW_Upstream km3
+commercial,Electricity_Import,Electricity,Policy,0,Argentina,Corfo,GWh,param,20.123545,0.209787194205889,Electricity_Import 95.9 GWh,Electricity_Import GWh
+downstream,W_SW_Upstream,Water,Policy,0,Argentina,Corfo,km3,param,1.291570165,0.40373494339746,W_SW_Upstream 3.2 km3,W_SW_Upstream km3
+export,Ag_cereals,Agriculture,Policy,0,Argentina,Corfo,km2,param,490,0.35,Ag_cereals 490 km2,Ag_cereals km2
+export,Ag_pasture,Agriculture,Policy,0,Argentina,Corfo,km2,param,742,0.53,Ag_pasture 742 km2,Ag_pasture km2
+export,Ag_vegetables,Agriculture,Policy,0,Argentina,Corfo,km2,param,168,0.12,Ag_vegetables 168 km2,Ag_vegetables km2
+export,Livestock_bulls,Livestock,Policy,0,Argentina,Corfo,head,param,5408,0.0205643796652965,Livestock_bulls 5408 head,Livestock_bulls head
+export,Livestock_calves,Livestock,Policy,0,Argentina,Corfo,head,param,45924,0.17462991341514,Livestock_calves 45924 head,Livestock_calves head
+export,Livestock_cows,Livestock,Policy,0,Argentina,Corfo,head,param,127040,0.483080398054598,Livestock_cows 127040 head,Livestock_cows head
+export,Livestock_heifers,Livestock,Policy,0,Argentina,Corfo,head,param,37136,0.141212796459033,Livestock_heifers 37136 head,Livestock_heifers head
+export,Livestock_steers,Livestock,Policy,0,Argentina,Corfo,head,param,47471,0.180512512405934,Livestock_steers 47471 head,Livestock_steers head
+industrial,Electricity_Import,Electricity,Policy,0,Argentina,Corfo,GWh,param,8.886225,0.0926385589533171,Electricity_Import 95.9 GWh,Electricity_Import GWh
+Livestock,W_SW_Upstream,Water,Policy,0,Argentina,Corfo,km3,param,0.005064527,0.00158313235865115,W_SW_Upstream 3.2 km3,W_SW_Upstream km3
+municipal,W_SW_Upstream,Water,Policy,0,Argentina,Corfo,km3,param,0.00252,0.000787732703133167,W_SW_Upstream 3.2 km3,W_SW_Upstream km3
+other,Electricity_Import,Electricity,Policy,0,Argentina,Corfo,GWh,param,25.390125,0.264691091171402,Electricity_Import 95.9 GWh,Electricity_Import GWh
+residential,Electricity_Import,Electricity,Policy,0,Argentina,Corfo,GWh,param,41.523715,0.432883155669392,Electricity_Import 95.9 GWh,Electricity_Import GWh

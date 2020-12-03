@@ -1,0 +1,5 @@
+sectorFrom,region,scenario,x,subRegion,sectorTo,value
+W_SW_Upstream,Argentina,Policy,0,RioNegro_media,Ag_cereals,0.0132682932456478
+W_SW_Upstream,Argentina,Policy,0,RioNegro_media,Ag_pasture,0.00722846184420742
+W_SW_Upstream,Argentina,Policy,0,RioNegro_media,Ag_specialty,0.00457818302782847
+W_SW_Upstream,Argentina,Policy,0,RioNegro_media,Ag_fruittrees,0.00457818302782847

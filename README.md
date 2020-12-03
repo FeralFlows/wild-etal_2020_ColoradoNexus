@@ -40,8 +40,8 @@ Reference for each minted data source for your output data.
 
 2. Checkout the metis model version used to run this publication's experiments. The git "tag" that points to the version/commit of Metis used to run this publication's experiments is "wild-etal_2020_ColoradoNexus". For this paper, please run the master branch.
 
->> git checkout tags/wild-etal_2020_ColoradoNexus -b master
+>> git checkout tags/wild_et_al_2020_ColoradoNexus -b master
 
 3. To run the I/O experiment, open Metis, then run the metis.masterX_io_colorado.R script.
 
-4. To produce the figures, run the scripts within the /figures directory.
+4. To produce the figures, run the scripts within the /figures directory. The colorado_FinalMaps.R produces figures for all categories.

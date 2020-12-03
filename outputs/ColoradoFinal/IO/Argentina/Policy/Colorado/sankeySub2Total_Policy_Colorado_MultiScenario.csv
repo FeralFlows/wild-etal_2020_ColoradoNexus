@@ -1,0 +1,17 @@
+sectorFrom,supplySector,scenario,x,units,region,subRegion,param,sectorTo,value,normValue,fromLabel,legendLabel
+Ag_cereals,Agriculture,Policy,0,km2,Argentina,Colorado,param,total,555.72475,0.271940612537813,Ag_cereals 555.7 km2,Ag_cereals km2
+Ag_forest,Agriculture,Policy,0,km2,Argentina,Colorado,param,total,0.78,0.000381688376807933,Ag_forest 0.78 km2,Ag_forest km2
+Ag_fruittrees,Agriculture,Policy,0,km2,Argentina,Colorado,param,total,67.3615,0.0329629507619841,Ag_fruittrees 67.4 km2,Ag_fruittrees km2
+Ag_pasture,Agriculture,Policy,0,km2,Argentina,Colorado,param,total,1110.41162,0.543373344649317,Ag_pasture 1110.4 km2,Ag_pasture km2
+Ag_specialty,Agriculture,Policy,0,km2,Argentina,Colorado,param,total,69.8615,0.0341863109440608,Ag_specialty 69.9 km2,Ag_specialty km2
+Ag_vegetables,Agriculture,Policy,0,km2,Argentina,Colorado,param,total,239.41251,0.117155092730017,Ag_vegetables 239.4 km2,Ag_vegetables km2
+Electricity_Gas,Electricity,Policy,0,GWh,Argentina,Colorado,param,total,476.34584256,0.231948641845895,Electricity_Gas 476.3 GWh,Electricity_Gas GWh
+Electricity_Hydro,Electricity,Policy,0,GWh,Argentina,Colorado,param,total,315.57505,0.153663993065565,Electricity_Hydro 315.6 GWh,Electricity_Hydro GWh
+Electricity_Import,Electricity,Policy,0,GWh,Argentina,Colorado,param,total,1034.528239411,0.503746225206914,Electricity_Import 1034.5 GWh,Electricity_Import GWh
+Electricity_RefLiqDiesel,Electricity,Policy,0,GWh,Argentina,Colorado,param,total,227.220330239,0.110641139881626,Electricity_RefLiqDiesel 227.2 GWh,Electricity_RefLiqDiesel GWh
+Livestock_bulls,Livestock,Policy,0,head,Argentina,Colorado,param,total,5408,0.0205643796652965,Livestock_bulls 5408 head,Livestock_bulls head
+Livestock_calves,Livestock,Policy,0,head,Argentina,Colorado,param,total,45924,0.17462991341514,Livestock_calves 45924 head,Livestock_calves head
+Livestock_cows,Livestock,Policy,0,head,Argentina,Colorado,param,total,127040,0.483080398054598,Livestock_cows 127040 head,Livestock_cows head
+Livestock_heifers,Livestock,Policy,0,head,Argentina,Colorado,param,total,37136,0.141212796459033,Livestock_heifers 37136 head,Livestock_heifers head
+Livestock_steers,Livestock,Policy,0,head,Argentina,Colorado,param,total,47471,0.180512512405934,Livestock_steers 47471 head,Livestock_steers head
+W_SW_Runoff,Water,Policy,0,km3,Argentina,Colorado,param,total,4.6074,1,W_SW_Runoff 4.6 km3,W_SW_Runoff km3

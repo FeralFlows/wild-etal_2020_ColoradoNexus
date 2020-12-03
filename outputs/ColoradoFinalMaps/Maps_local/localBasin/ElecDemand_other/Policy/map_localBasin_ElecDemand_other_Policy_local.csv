@@ -1,0 +1,11 @@
+scenario,subRegion,param,class,x,units,value
+Policy,Corfo,ElecDemand_other,ElecDemand_other,2010,GWh,25.390125
+Policy,LaPampa_baja,ElecDemand_other,ElecDemand_other,2010,GWh,4.754263
+Policy,LaPampa_media,ElecDemand_other,ElecDemand_other,2010,GWh,4.568789
+Policy,Mendoza_alta_barrancas,ElecDemand_other,ElecDemand_other,2010,GWh,0
+Policy,Mendoza_alta_riogrande,ElecDemand_other,ElecDemand_other,2010,GWh,11.736356
+Policy,Mendoza_media,ElecDemand_other,ElecDemand_other,2010,GWh,0
+Policy,Neuquen_alta_barrancas,ElecDemand_other,ElecDemand_other,2010,GWh,5.477967
+Policy,Neuquen_media,ElecDemand_other,ElecDemand_other,2010,GWh,105.082112
+Policy,RioNegro_baja,ElecDemand_other,ElecDemand_other,2010,GWh,24.52153
+Policy,RioNegro_media,ElecDemand_other,ElecDemand_other,2010,GWh,133.6355658

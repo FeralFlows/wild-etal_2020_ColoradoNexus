@@ -1,0 +1,11 @@
+scenario,subRegion,param,class,x,units,value
+Reference,Corfo,ElecDemand_export,ElecDemand_export,2010,GWh,0
+Reference,LaPampa_baja,ElecDemand_export,ElecDemand_export,2010,GWh,0
+Reference,LaPampa_media,ElecDemand_export,ElecDemand_export,2010,GWh,134.218
+Reference,Mendoza_alta_barrancas,ElecDemand_export,ElecDemand_export,2010,GWh,0
+Reference,Mendoza_alta_riogrande,ElecDemand_export,ElecDemand_export,2010,GWh,0
+Reference,Mendoza_media,ElecDemand_export,ElecDemand_export,2010,GWh,0
+Reference,Neuquen_alta_barrancas,ElecDemand_export,ElecDemand_export,2010,GWh,0
+Reference,Neuquen_media,ElecDemand_export,ElecDemand_export,2010,GWh,4.216127
+Reference,RioNegro_baja,ElecDemand_export,ElecDemand_export,2010,GWh,0
+Reference,RioNegro_media,ElecDemand_export,ElecDemand_export,2010,GWh,0

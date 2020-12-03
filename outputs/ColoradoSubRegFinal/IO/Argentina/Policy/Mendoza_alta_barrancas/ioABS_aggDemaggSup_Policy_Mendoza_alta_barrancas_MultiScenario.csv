@@ -1,0 +1,10 @@
+sectorTo,sectorFrom,supplySector,scenario,x,region,subRegion,units,param,value
+Ag,Water_all,Water,Policy,0,Argentina,Mendoza_alta_barrancas,km3,param,0.001
+cap,Agriculture_all,Agriculture,Policy,0,Argentina,Mendoza_alta_barrancas,km2,param,0.02
+cap,Water_all,Water,Policy,0,Argentina,Mendoza_alta_barrancas,km3,param,0.276125
+capNew,Agriculture_all,Agriculture,Policy,0,Argentina,Mendoza_alta_barrancas,km2,param,0.02
+capOrig,Water_all,Water,Policy,0,Argentina,Mendoza_alta_barrancas,km3,param,0.276125
+downstream,Water_all,Water,Policy,0,Argentina,Mendoza_alta_barrancas,km3,param,0.275125
+export,Agriculture_all,Agriculture,Policy,0,Argentina,Mendoza_alta_barrancas,km2,param,0.02
+total,Agriculture_all,Agriculture,Policy,0,Argentina,Mendoza_alta_barrancas,km2,param,0.02
+total,Water_all,Water,Policy,0,Argentina,Mendoza_alta_barrancas,km3,param,0.276125

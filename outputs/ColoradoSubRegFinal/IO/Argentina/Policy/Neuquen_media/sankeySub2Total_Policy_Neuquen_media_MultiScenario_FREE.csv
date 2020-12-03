@@ -1,0 +1,8 @@
+sectorFrom,supplySector,scenario,x,units,region,subRegion,param,sectorTo,value,normValue,fromLabel,legendLabel
+Ag_cereals,Agriculture,Policy,0,km2,Argentina,Neuquen_media,param,total,0.2,0.0307692307692308,Ag_cereals 0.2 km2,Ag_cereals km2
+Ag_fruittrees,Agriculture,Policy,0,km2,Argentina,Neuquen_media,param,total,0.06,0.00923076923076923,Ag_fruittrees 0.06 km2,Ag_fruittrees km2
+Ag_pasture,Agriculture,Policy,0,km2,Argentina,Neuquen_media,param,total,6.22,0.956923076923077,Ag_pasture 6.2 km2,Ag_pasture km2
+Ag_vegetables,Agriculture,Policy,0,km2,Argentina,Neuquen_media,param,total,0.02,0.00307692307692308,Ag_vegetables 0.02 km2,Ag_vegetables km2
+Electricity_Gas,Electricity,Policy,0,GWh,Argentina,Neuquen_media,param,total,476.34584256,0.68,Electricity_Gas 476.3 GWh,Electricity_Gas GWh
+Electricity_RefLiqDiesel,Electricity,Policy,0,GWh,Argentina,Neuquen_media,param,total,224.16274944,0.32,Electricity_RefLiqDiesel 224.2 GWh,Electricity_RefLiqDiesel GWh
+W_SW_Upstream,Water,Policy,0,km3,Argentina,Neuquen_media,param,total,2.298719843,1,W_SW_Upstream 2.3 km3,W_SW_Upstream km3

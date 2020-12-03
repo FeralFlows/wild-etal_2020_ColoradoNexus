@@ -1,0 +1,11 @@
+scenario,subRegion,param,class,x,units,value
+Reference,Corfo,Ag_pasture_supply,Ag_pasture_supply,2010,land (km^2),742
+Reference,LaPampa_baja,Ag_pasture_supply,Ag_pasture_supply,2010,land (km^2),2.39
+Reference,LaPampa_media,Ag_pasture_supply,Ag_pasture_supply,2010,land (km^2),13.2
+Reference,Mendoza_alta_barrancas,Ag_pasture_supply,Ag_pasture_supply,2010,land (km^2),0
+Reference,Mendoza_alta_riogrande,Ag_pasture_supply,Ag_pasture_supply,2010,land (km^2),0
+Reference,Mendoza_media,Ag_pasture_supply,Ag_pasture_supply,2010,land (km^2),0
+Reference,Neuquen_alta_barrancas,Ag_pasture_supply,Ag_pasture_supply,2010,land (km^2),0.53
+Reference,Neuquen_media,Ag_pasture_supply,Ag_pasture_supply,2010,land (km^2),6.22
+Reference,RioNegro_baja,Ag_pasture_supply,Ag_pasture_supply,2010,land (km^2),10.95
+Reference,RioNegro_media,Ag_pasture_supply,Ag_pasture_supply,2010,land (km^2),22.25

@@ -21,13 +21,15 @@ library(tools)
 if("metis" %in% rownames(installed.packages()) == F){install.packages("metis")}
 library(metis)
 
-setwd('C:/Users/twild/all_git_repositories/metis/metis')
+dir_metis <- "E:/NEXO-UA/Github/wild-etal_2020_ColoradoNexus/metis_input"
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+setwd("..")
 countryName="Argentina"
 
 
 # Plot 10 subregions in Colorado
-localBasinShapeFileFolder = paste(getwd(),"/dataFiles/gis/shapefiles_Argentina",sep="")
-localBasinShapeFile = "colorado_10_subregions"
+localBasinShapeFileFolder = paste(dir_metis,"/dataFiles/gis/shapefiles_Argentina",sep="")
+localBasinShapeFile = "ArgentinaLocalBasin_Corrected"
 countryLocalBasin <-readOGR(dsn=localBasinShapeFileFolder,
                             layer=localBasinShapeFile,use_iconv=T,encoding='UTF-8')
 localBasinsShapeFileColName = "cuenca" # Will need to load the file to see which name this would be
@@ -36,16 +38,17 @@ countryLocalBasin<-countryLocalBasin[(!countryLocalBasin$cuenca %in%
 countryLocalBasin@data <- droplevels(countryLocalBasin@data)
 head(countryLocalBasin@data)
 plot(countryLocalBasin)
-writeOGR(obj=countryLocalBasin, dsn=paste(getwd(),"/dataFiles/gis/shapefiles_",countryName,sep=""), layer=paste(countryName,"LocalBasin",sep=""), driver="ESRI Shapefile", overwrite_layer=TRUE)
-metis.map(dataPolygon=countryLocalBasin,fillColumn = localBasinsShapeFileColName,printFig=T, facetsON = T, labels=T)
+writeOGR(obj=countryLocalBasin, dsn=paste(dir_metis,"/dataFiles/gis/shapefiles_",countryName,sep=""), layer=paste(countryName,"LocalBasin",sep=""), driver="ESRI Shapefile", overwrite_layer=TRUE)
+metis.map(dataPolygon=countryLocalBasin,fillColumn = localBasinsShapeFileColName,printFig=F, facetsOn = F, labels=F)
+
+colnames(countryLocalBasin@data)[colnames(countryLocalBasin@data) == localBasinsShapeFileColName] <- 'subRegion'
 
 
-
-
-subRegShpFolder_i = paste(getwd(),"/dataFiles/gis/shapefiles_",countryName,sep = "")
-subRegShpFile_i = paste("colorado_10_subregions",sep= "") # localBasinShapeFile # paste("colombiaLocalBasin",sep= "")
-subRegCol_i = localBasinsShapeFileColName  #
-subRegType_i = "subBasin"
+# subRegShpFolder_i = paste(dir_metis,"/dataFiles/gis/shapefiles_",countryName,sep = "")
+# subRegShpFile_i = paste("colorado_10_subregions",sep= "") # localBasinShapeFile # paste("colombiaLocalBasin",sep= "")
+subRegShape_i = countryLocalBasin
+subRegCol_i = "subRegion" #localBasinsShapeFileColName  #
+subRegType_i = "localBasin"
 nameAppend_i = "_local"
 
 scenario_name <- 'Reference'

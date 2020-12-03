@@ -1,0 +1,11 @@
+sectorFrom,supplySector,scenario,x,units,region,subRegion,param,sectorTo,value,normValue,fromLabel,legendLabel
+Ag_cereals,Agriculture,Policy,0,km2,Argentina,Corfo,param,total,490,0.35,Ag_cereals 490 km2,Ag_cereals km2
+Ag_pasture,Agriculture,Policy,0,km2,Argentina,Corfo,param,total,742,0.53,Ag_pasture 742 km2,Ag_pasture km2
+Ag_vegetables,Agriculture,Policy,0,km2,Argentina,Corfo,param,total,168,0.12,Ag_vegetables 168 km2,Ag_vegetables km2
+Electricity_Import,Electricity,Policy,0,GWh,Argentina,Corfo,param,total,95.92361,1,Electricity_Import 95.9 GWh,Electricity_Import GWh
+Livestock_bulls,Livestock,Policy,0,head,Argentina,Corfo,param,total,5408,0.0205643796652965,Livestock_bulls 5408 head,Livestock_bulls head
+Livestock_calves,Livestock,Policy,0,head,Argentina,Corfo,param,total,45924,0.17462991341514,Livestock_calves 45924 head,Livestock_calves head
+Livestock_cows,Livestock,Policy,0,head,Argentina,Corfo,param,total,127040,0.483080398054598,Livestock_cows 127040 head,Livestock_cows head
+Livestock_heifers,Livestock,Policy,0,head,Argentina,Corfo,param,total,37136,0.141212796459033,Livestock_heifers 37136 head,Livestock_heifers head
+Livestock_steers,Livestock,Policy,0,head,Argentina,Corfo,param,total,47471,0.180512512405934,Livestock_steers 47471 head,Livestock_steers head
+W_SW_Upstream,Water,Policy,0,km3,Argentina,Corfo,param,total,3.199054692,1,W_SW_Upstream 3.2 km3,W_SW_Upstream km3

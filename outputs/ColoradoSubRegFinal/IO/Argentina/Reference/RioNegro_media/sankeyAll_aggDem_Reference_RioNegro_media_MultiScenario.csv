@@ -1,0 +1,9 @@
+sectorTo,sectorFrom,supplySector,scenario,x,region,subRegion,units,param,value,normValue,fromLabel,legendLabel
+Ag,Water_all,Water,Reference,0,Argentina,RioNegro_media,km3,param,0.1785,0.0788505300310321,Water_all 2.3 km3,Water_all km3
+commercial,Electricity_all,Electricity,Reference,0,Argentina,RioNegro_media,GWh,param,137.85332975,0.132206129436559,Electricity_all 1042.7 GWh,Electricity_all GWh
+downstream,Water_all,Water,Reference,0,Argentina,RioNegro_media,km3,param,2.082506793,0.919925851099579,Water_all 2.3 km3,Water_all km3
+export,Agriculture_all,Agriculture,Reference,0,Argentina,RioNegro_media,km2,param,25.6,1,Agriculture_all 25.6 km2,Agriculture_all km2
+industrial,Electricity_all,Electricity,Reference,0,Argentina,RioNegro_media,GWh,param,500.39769527,0.479898763349396,Electricity_all 1042.7 GWh,Electricity_all GWh
+municipal,Water_all,Water,Reference,0,Argentina,RioNegro_media,km3,param,0.00277,0.00122361886938913,Water_all 2.3 km3,Water_all km3
+other,Electricity_all,Electricity,Reference,0,Argentina,RioNegro_media,GWh,param,133.63556583,0.128161147398391,Electricity_all 1042.7 GWh,Electricity_all GWh
+residential,Electricity_all,Electricity,Reference,0,Argentina,RioNegro_media,GWh,param,270.82852635,0.259733959815654,Electricity_all 1042.7 GWh,Electricity_all GWh
