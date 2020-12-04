@@ -29,6 +29,8 @@ library(tidyverse)
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 source(paste(getwd(),'/metis_input/extras/MetisWatMod.R',sep=""))
 data <- paste(getwd(),'/metis_input/dataFiles/io/network_data.csv',sep="")
+save_dir <- paste(getwd(), 'outputs/Maps/Tables', sep = '/')
+if(!file.exists(save_dir)){dir.create(file.path(save_dir))}
 
 # Simulation network/order
 output <- network_main(data)
@@ -48,6 +50,8 @@ for(scen in scenarios){
   demand_data <- read.csv(demand_data_file)
   demand_data <- demand_data %>% as_tibble()
   capacity_data <- read.csv(capacity_data_file)
+
+
   # Manipulate/rearrange demand/supply data frame to wide format
   ioTable0 <- demand_data %>%
     select(-dataSource, -year, -param) %>%
@@ -103,7 +107,6 @@ for(scen in scenarios){
     sr <- c(subReg)
     mapping_df <- mapping_df %>% mutate(value = if_else(subRegion==sr, demand/surfaceSupply, value))
   }
-  save_dir <- paste(getwd(), 'outputs/Maps/Tables', sep = '/')
   export_df <- mapping_df %>%
     filter(param %in% params) %>%
     select(-classPalette1)  # Deal with Palette separately in map
@@ -626,7 +629,7 @@ for(scen in scenarios){
     ioTable0 <- t2
     io1 <- metis.io(ioTable0=ioTable0, nameAppend = "_MultiScenario", folderName="ColoradoFinal", pdfpng='pdf',
                     sankeyAxis1Label = 'Supply', sankeyAxis2Label = 'Demand')  # ioTable0=ioTable0
-    io1$ioTbl_Output %>% as.data.frame()
-    io1$A_Output %>% as.data.frame()
+    io1$ioTbl %>% as.data.frame()
+    io1$A %>% as.data.frame()
   }
 }

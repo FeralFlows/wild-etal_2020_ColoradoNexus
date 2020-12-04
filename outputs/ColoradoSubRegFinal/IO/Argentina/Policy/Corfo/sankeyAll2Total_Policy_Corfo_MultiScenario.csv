@@ -1,5 +1,0 @@
-sectorFrom,supplySector,scenario,x,units,region,subRegion,param,sectorTo,value,normValue,fromLabel,legendLabel
-Agriculture_all,Agriculture,Policy,0,km2,Argentina,Corfo,param,total,1400,1,Agriculture_all 1400 km2,Agriculture_all km2
-Electricity_all,Electricity,Policy,0,GWh,Argentina,Corfo,param,total,95.92361,1,Electricity_all 95.9 GWh,Electricity_all GWh
-Livestock_all,Livestock,Policy,0,head,Argentina,Corfo,param,total,262979,1,Livestock_all 262979 head,Livestock_all head
-Water_all,Water,Policy,0,km3,Argentina,Corfo,param,total,3.199054692,1,Water_all 3.2 km3,Water_all km3

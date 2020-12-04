@@ -1,7 +1,0 @@
-sectorFrom,supplySector,scenario,x,units,region,subRegion,param,sectorTo,value,normValue,fromLabel,legendLabel
-Ag_pasture,Agriculture,Reference,0,km2,Argentina,LaPampa_baja,param,total,2.39,0.711309523809524,Ag_pasture 2.4 km2,Ag_pasture km2
-Ag_specialty,Agriculture,Reference,0,km2,Argentina,LaPampa_baja,param,total,0.5,0.148809523809524,Ag_specialty 0.5 km2,Ag_specialty km2
-Ag_vegetables,Agriculture,Reference,0,km2,Argentina,LaPampa_baja,param,total,0.47,0.139880952380952,Ag_vegetables 0.47 km2,Ag_vegetables km2
-Electricity_Import,Electricity,Reference,0,GWh,Argentina,LaPampa_baja,param,total,9.543597,0.906721547298632,Electricity_Import 9.5 GWh,Electricity_Import GWh
-Electricity_RefLiqDiesel,Electricity,Reference,0,GWh,Argentina,LaPampa_baja,param,total,0.981792,0.0932784527013681,Electricity_RefLiqDiesel 0.98 GWh,Electricity_RefLiqDiesel GWh
-W_SW_Upstream,Water,Reference,0,km3,Argentina,LaPampa_baja,param,total,2.172311793,1,W_SW_Upstream 2.2 km3,W_SW_Upstream km3

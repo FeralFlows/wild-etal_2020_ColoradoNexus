@@ -1,5 +1,0 @@
-sectorFrom,supplySector,scenario,x,units,region,subRegion,param,sectorTo,value,normValue,fromLabel,legendLabel
-Agriculture_all,Agriculture,Reference,0,km2,Argentina,Colorado,param,total,1569.96,1,Agriculture_all 1570 km2,Agriculture_all km2
-Electricity_all,Electricity,Reference,0,GWh,Argentina,Colorado,param,total,2053.66946221,1,Electricity_all 2053.7 GWh,Electricity_all GWh
-Livestock_all,Livestock,Reference,0,head,Argentina,Colorado,param,total,262979,1,Livestock_all 262979 head,Livestock_all head
-Water_all,Water,Reference,0,km3,Argentina,Colorado,param,total,4.6074,1,Water_all 4.6 km3,Water_all km3

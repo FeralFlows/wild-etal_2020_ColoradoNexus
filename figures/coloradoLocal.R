@@ -88,8 +88,8 @@ catPalette <- numeric2Cat_list$numeric2Cat_palette[[list_index]]; catPalette
 catLegendTextSize <- numeric2Cat_list$numeric2Cat_legendTextSize[[list_index]];catLegendTextSize
 
 boundaryRegShape_i = NULL
-boundaryRegShpFolder_i=paste(dir_metis,"/dataFiles/gis/naturalEarth",sep="")
-boundaryRegShpFile_i=paste("ne_10m_admin_0_countries",sep="")
+# boundaryRegShpFolder_i=paste(dir_metis,"/dataFiles/gis/naturalEarth",sep="")
+# boundaryRegShpFile_i=paste("ne_10m_admin_0_countries",sep="")
 boundaryRegCol_i="NAME"
 boundaryRegionsSelect_i=countryName
 
@@ -132,3 +132,4 @@ metis.mapsProcess(polygonTable=polygonDataTables_i,
                  # refRCP="rcp2p6",
                  chosenRefMeanYears=c(2000:2050),
                  numeric2Cat_list=numeric2Cat_list)
+

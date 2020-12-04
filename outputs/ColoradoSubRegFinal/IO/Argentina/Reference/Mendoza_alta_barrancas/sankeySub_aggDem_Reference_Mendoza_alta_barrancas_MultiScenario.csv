@@ -1,4 +1,0 @@
-sectorTo,sectorFrom,supplySector,scenario,x,region,subRegion,units,param,value,normValue,fromLabel,legendLabel
-Ag,W_SW_Runoff,Water,Reference,0,Argentina,Mendoza_alta_barrancas,km3,param,0.001,0.00362154821186057,W_SW_Runoff 0.28 km3,W_SW_Runoff km3
-downstream,W_SW_Runoff,Water,Reference,0,Argentina,Mendoza_alta_barrancas,km3,param,0.275125,0.99637845178814,W_SW_Runoff 0.28 km3,W_SW_Runoff km3
-export,Ag_fruittrees,Agriculture,Reference,0,Argentina,Mendoza_alta_barrancas,km2,param,0.02,1,Ag_fruittrees 0.02 km2,Ag_fruittrees km2

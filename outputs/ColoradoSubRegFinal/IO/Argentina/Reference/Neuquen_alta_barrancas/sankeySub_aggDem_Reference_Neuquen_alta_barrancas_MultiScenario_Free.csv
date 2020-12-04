@@ -1,8 +1,0 @@
-sectorTo,sectorFrom,supplySector,scenario,x,region,subRegion,units,param,value,normValue,fromLabel,legendLabel
-Ag,W_SW_Runoff,Water,Reference,0,Argentina,Neuquen_alta_barrancas,km3,param,0.0087,0.0105024898143957,W_SW_Runoff 0.83 km3,W_SW_Runoff km3
-downstream,W_SW_Runoff,Water,Reference,0,Argentina,Neuquen_alta_barrancas,km3,param,0.819415,0.98918364267391,W_SW_Runoff 0.83 km3,W_SW_Runoff km3
-export,Ag_forest,Agriculture,Reference,0,Argentina,Neuquen_alta_barrancas,km2,param,0.15,0.220588235294118,Ag_forest 0.15 km2,Ag_forest km2
-export,Ag_pasture,Agriculture,Reference,0,Argentina,Neuquen_alta_barrancas,km2,param,0.53,0.779411764705882,Ag_pasture 0.53 km2,Ag_pasture km2
-municipal,W_SW_Runoff,Water,Reference,0,Argentina,Neuquen_alta_barrancas,km3,param,0.00026,0.000313867511694583,W_SW_Runoff 0.83 km3,W_SW_Runoff km3
-other,Electricity_Import,Electricity,Reference,0,Argentina,Neuquen_alta_barrancas,GWh,param,5.477967,0.423394274497019,Electricity_Import 12.9 GWh,Electricity_Import GWh
-residential,Electricity_Import,Electricity,Reference,0,Argentina,Neuquen_alta_barrancas,GWh,param,7.46025,0.576605725502981,Electricity_Import 12.9 GWh,Electricity_Import GWh

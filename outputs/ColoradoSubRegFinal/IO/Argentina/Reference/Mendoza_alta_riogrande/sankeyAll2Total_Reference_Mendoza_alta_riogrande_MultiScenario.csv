@@ -1,3 +1,0 @@
-sectorFrom,supplySector,scenario,x,units,region,subRegion,param,sectorTo,value,normValue,fromLabel,legendLabel
-Electricity_all,Electricity,Reference,0,GWh,Argentina,Mendoza_alta_riogrande,param,total,65.37818501,1,Electricity_all 65.4 GWh,Electricity_all GWh
-Water_all,Water,Reference,0,km3,Argentina,Mendoza_alta_riogrande,param,total,3.5029,1,Water_all 3.5 km3,Water_all km3

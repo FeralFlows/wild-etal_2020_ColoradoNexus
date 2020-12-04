@@ -1,9 +1,0 @@
-sectorFrom,region,scenario,x,subRegion,sectorTo,value
-W_SW_Upstream,Argentina,Policy,0,Corfo,Ag_cereals,0.00199526647435041
-W_SW_Upstream,Argentina,Policy,0,Corfo,Ag_pasture,0.00108700548833581
-W_SW_Upstream,Argentina,Policy,0,Corfo,Ag_vegetables,0.00068846044775672
-W_SW_Upstream,Argentina,Policy,0,Corfo,Livestock_bulls,1.2450073964497e-08
-W_SW_Upstream,Argentina,Policy,0,Corfo,Livestock_calves,1.24473913422176e-08
-W_SW_Upstream,Argentina,Policy,0,Corfo,Livestock_cows,2.33548488664987e-08
-W_SW_Upstream,Argentina,Policy,0,Corfo,Livestock_heifers,2.33654674709177e-08
-W_SW_Upstream,Argentina,Policy,0,Corfo,Livestock_steers,1.24468201638895e-08

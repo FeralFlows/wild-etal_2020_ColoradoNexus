@@ -24,7 +24,6 @@ library(metis)
 dir_metis <- "E:/NEXO-UA/Github/wild-etal_2020_ColoradoNexus/metis_input"
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 setwd("..")
-# setwd('C:/Users/twild/all_git_repositories/metis/metis')
 countryName="Argentina"
 
 
@@ -145,23 +144,19 @@ for(scen in ScenarioNames){
 
     # xRange=xRange_i,
 
-    metis.mapsProcess(polygonTable=polygonDataTables_i,
-                      #gridDataTables=gridDataTables_i,
+    metis.mapsProcess(polygonTable=a1,
                       # boundaryRegShape=boundaryRegShape_i,
                       # boundaryRegShpFolder=boundaryRegShpFolder_i,
                       # boundaryRegShpFile=boundaryRegShpFile_i,
                       # boundaryRegCol=boundaryRegCol_i,
                       boundaryRegionsSelect=boundaryRegionsSelect_i,
                       subRegShape=subRegShape_i,
-                      # subRegShpFolder=subRegShpFolder_i,
-                      # subRegShpFile=subRegShpFile_i,
                       subRegCol=subRegCol_i,
-                      #subRegType=subRegType_i,
+                      # subRegType=subRegType_i,
                       nameAppend=nameAppend_i,
                       legendOutsideSingle=legendOutsideSingle_i,
                       legendPosition=legendPosition_i,
                       animateOn=animateOn_i,
-                      #delay=delay_i,
                       scenRef=scenRef_i,
                       extension=T,
                       expandPercent = 3,
@@ -169,8 +164,6 @@ for(scen in ScenarioNames){
                       figHeight=7,
                       paramsSelect = paramsSelect_i,
                       scaleRange = scaleRange_i,
-                      # indvScenarios=indvScenarios_i,
-                      # GCMRCPSSPPol=GCMRCPSSPPol_i,
                       multiFacetCols="scenarioRCP",
                       multiFacetRows="scenarioGCM",
                       legendOutsideMulti=T,
@@ -178,8 +171,6 @@ for(scen in ScenarioNames){
                       legendTitleSizeMulti=NULL,
                       legendTextSizeAnim=NULL,
                       legendTextSizeMulti=NULL,
-                      # refGCM="gfdl-esm2m",
-                      # refRCP="rcp2p6",
                       chosenRefMeanYears=c(2000:2050),
                       numeric2Cat_list=numeric2Cat_list,
                       frameShow = F,

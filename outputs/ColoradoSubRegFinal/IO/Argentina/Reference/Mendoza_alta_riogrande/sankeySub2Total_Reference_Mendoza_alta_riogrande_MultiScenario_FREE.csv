@@ -1,4 +1,0 @@
-sectorFrom,supplySector,scenario,x,units,region,subRegion,param,sectorTo,value,normValue,fromLabel,legendLabel
-Electricity_Import,Electricity,Reference,0,GWh,Argentina,Mendoza_alta_riogrande,param,total,63.302396211,0.968249519336114,Electricity_Import 63.3 GWh,Electricity_Import GWh
-Electricity_RefLiqDiesel,Electricity,Reference,0,GWh,Argentina,Mendoza_alta_riogrande,param,total,2.075788799,0.0317504806638865,Electricity_RefLiqDiesel 2.1 GWh,Electricity_RefLiqDiesel GWh
-W_SW_Runoff,Water,Reference,0,km3,Argentina,Mendoza_alta_riogrande,param,total,3.5029,1,W_SW_Runoff 3.5 km3,W_SW_Runoff km3

@@ -1,9 +1,0 @@
-sectorFrom,supplySector,scenario,x,units,region,subRegion,param,sectorTo,value,normValue,fromLabel,legendLabel
-Ag_cereals,Agriculture,Policy,0,km2,Argentina,RioNegro_media,param,total,0.6,0.0234375,Ag_cereals 0.6 km2,Ag_cereals km2
-Ag_forest,Agriculture,Policy,0,km2,Argentina,RioNegro_media,param,total,0.63,0.024609375,Ag_forest 0.63 km2,Ag_forest km2
-Ag_fruittrees,Agriculture,Policy,0,km2,Argentina,RioNegro_media,param,total,1.5,0.05859375,Ag_fruittrees 1.5 km2,Ag_fruittrees km2
-Ag_pasture,Agriculture,Policy,0,km2,Argentina,RioNegro_media,param,total,22.25,0.869140625,Ag_pasture 22.2 km2,Ag_pasture km2
-Ag_specialty,Agriculture,Policy,0,km2,Argentina,RioNegro_media,param,total,0.62,0.02421875,Ag_specialty 0.62 km2,Ag_specialty km2
-Electricity_Hydro,Electricity,Policy,0,GWh,Argentina,RioNegro_media,param,total,157.788,0.151324170329196,Electricity_Hydro 157.8 GWh,Electricity_Hydro GWh
-Electricity_Import,Electricity,Policy,0,GWh,Argentina,RioNegro_media,param,total,884.9271172,0.848675829670805,Electricity_Import 884.9 GWh,Electricity_Import GWh
-W_SW_Upstream,Water,Policy,0,km3,Argentina,RioNegro_media,param,total,2.263776793,1,W_SW_Upstream 2.3 km3,W_SW_Upstream km3

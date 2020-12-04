@@ -1,3 +1,0 @@
-sectorTo,sectorFrom,supplySector,scenario,x,region,subRegion,units,param,value,normValue,fromLabel,legendLabel
-downstream,Water_all,Water,Policy,0,Argentina,Mendoza_media,km3,param,2.297519843,0.999477970313062,Water_all 2.3 km3,Water_all km3
-municipal,Water_all,Water,Policy,0,Argentina,Mendoza_media,km3,param,0.0012,0.000522029686938236,Water_all 2.3 km3,Water_all km3

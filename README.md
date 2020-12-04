@@ -9,7 +9,8 @@ References for each minted software release for all code involved.  If you have 
 
 #### Example:
 
-Human, I.M. (2020, January 1). human/myrepo: v1.2.5.hydro (Version v1.2.5.hydro). Zenodo. https://doi.org/some-doi-number
+Wild, T.B. (2020). Colorado Nexus Repository. Github. https://github.com/FeralFlows/wild-etal_2020_ColoradoNexus.git
+
 
 ## Journal reference
 Journal reference will be updated after acceptance.
@@ -17,7 +18,24 @@ Journal reference will be updated after acceptance.
 ## Data reference
 
 ### Input data
-Reference for each minted data source for your input data.  
+
+The input data in this study is at sub-regional level within the Colorado basin. For more details, please check the CSV files within the /metis_input directory.
+
+  1. Supply capacity for water and electricity (gas, refined liquid oil, and hydropower).
+  2. Demand for multipal sectors (see table below).
+  3. Stream network connectivity matrix.
+
+| Demand Sector | Class | Supply Sector |
+|---|---|---|
+| Agritculture | Fruit trees, pasture, cereals, specialty, and vegetables | Water |
+| Mulnicipal | NA | Water |
+| Electricity | Diesel fuel, gas, and hydropower | Water |
+| Livestock | Vacas, vaquillonas, novillos, terneros, and toros | Water |
+| Residential | NA | Electricity |
+| Commercial | NA | Electricity |
+| industrial | NA | Electricity |
+| Export | NA | Electricity, agriculture, and livestock |
+| Other | NA | Electricity |
 
 #### Example:
 
@@ -29,19 +47,37 @@ Reference for each minted data source for your output data.
 ## Contributing models
 | Model | Version | Repository Link | DOI |
 |-------|---------|-----------------|-----|
-| metis | v1.0.0 | www.github.com/JGCRI/metis/tree/wild-etal_2020_ColoradoNexus | <link to DOI dataset> |
-| GCAM | v5.3 | www.github.com/JGCRI/gcam-core | <link to DOI dataset> |
+| metis | v1.0.0 | www.github.com/JGCRI/metis/tree/wild_et_al_2020_ColoradoNexus | <link to DOI dataset> |
+| GCAM | v5.1 | https://zenodo.org/record/3897519#.X20P-mhKiUk | <link to DOI dataset> |
   
 
 ## Reproduce my experiement
+
+### Install Metis
+
 1. Clone and install metis from www.github.com/JGCRI/metis. This Metis GitHub repository has detailed installation instructions.
 
->>git clone https://github.com/JGCRI/metis.git
+```
+git clone https://github.com/JGCRI/metis.git
+```
 
 2. Checkout the metis model version used to run this publication's experiments. The git "tag" that points to the version/commit of Metis used to run this publication's experiments is "wild-etal_2020_ColoradoNexus". For this paper, please run the master branch.
 
->> git checkout tags/wild_et_al_2020_ColoradoNexus -b master
+```
+git checkout tags/wild_et_al_2020_ColoradoNexus -b master
+```
 
-3. To run the I/O experiment, open Metis, then run the metis.masterX_io_colorado.R script.
+3. If you previously installed metis, to use the 'tagged' metis version associated with this paper, go to cloned metis folder, open metis.Rproj, select Build -> Document. Then select Build -> Install and Restart. Reload metis.
 
-4. To produce the figures, run the scripts within the /figures directory. The colorado_FinalMaps.R produces figures for all categories.
+```
+devtools::unload("metis")
+library(metis)
+```
+
+### Reproduce the I/O Experiment
+
+1. Clone reproducible repository into your desired location with ```git clone https://github.com/FeralFlows/wild-etal_2020_ColoradoNexus.git```.
+
+2. To run the I/O experiment, run the metis.masterX_io_colorado.R script.
+
+3. To produce the figures, run the colorado_FinalMaps.R scripts within the /figures directory.

@@ -1,4 +1,0 @@
-sectorFrom,supplySector,scenario,x,units,region,subRegion,param,sectorTo,value,normValue,fromLabel,legendLabel
-Agriculture_all,Agriculture,Policy,0,km2,Argentina,LaPampa_media,param,total,78,1,Agriculture_all 78 km2,Agriculture_all km2
-Electricity_all,Electricity,Policy,0,GWh,Argentina,LaPampa_media,param,total,157.78705,1,Electricity_all 157.8 GWh,Electricity_all GWh
-Water_all,Water,Policy,0,km3,Argentina,LaPampa_media,param,total,2.496776793,1,Water_all 2.5 km3,Water_all km3

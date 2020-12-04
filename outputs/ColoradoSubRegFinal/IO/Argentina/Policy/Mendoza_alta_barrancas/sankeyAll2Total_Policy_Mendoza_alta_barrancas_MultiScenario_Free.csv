@@ -1,3 +1,0 @@
-sectorFrom,supplySector,scenario,x,units,region,subRegion,param,sectorTo,value,normValue,fromLabel,legendLabel
-Agriculture_all,Agriculture,Policy,0,km2,Argentina,Mendoza_alta_barrancas,param,total,0.02,1,Agriculture_all 0.02 km2,Agriculture_all km2
-Water_all,Water,Policy,0,km3,Argentina,Mendoza_alta_barrancas,param,total,0.276125,1,Water_all 0.28 km3,Water_all km3
