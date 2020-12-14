@@ -46,7 +46,7 @@ Reference for each minted data source for your output data.
 
 ## Contributing models
 | Model | Version | Repository Link/DOI |
-|-------|---------|-----------------|-----|
+|-------|---------|---------------------|
 | metis | v1.0.0 | www.github.com/JGCRI/metis/tree/wild_et_al_2020_ColoradoNexus |
 | GCAM | v5.1 | https://zenodo.org/record/3897519#.X20P-mhKiUk |
   
