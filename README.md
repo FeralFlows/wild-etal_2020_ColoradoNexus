@@ -28,14 +28,14 @@ The input data in this study is at sub-regional level within the Colorado basin.
 | Demand Sector | Class | Supply Sector |
 |---|---|---|
 | Agritculture | Fruit trees, pasture, cereals, specialty, and vegetables | Water |
-| Mulnicipal | NA | Water |
+| Municipal | N/A | Water |
 | Electricity | Diesel fuel, gas, and hydropower | Water |
 | Livestock | Vacas, vaquillonas, novillos, terneros, and toros | Water |
-| Residential | NA | Electricity |
-| Commercial | NA | Electricity |
-| industrial | NA | Electricity |
-| Export | NA | Electricity, agriculture, and livestock |
-| Other | NA | Electricity |
+| Residential | N/A | Electricity |
+| Commercial | N/A | Electricity |
+| industrial | N/A | Electricity |
+| Export | N/A | Electricity, agriculture, and livestock |
+| Other | N/A | Electricity |
 
 #### Example:
 
@@ -45,29 +45,29 @@ Human, I.M. (2020). My dataset name [Data set]. DataHub. https://doi.org/some-do
 Reference for each minted data source for your output data.  
 
 ## Contributing models
-| Model | Version | Repository Link | DOI |
+| Model | Version | Repository Link/DOI |
 |-------|---------|-----------------|-----|
-| metis | v1.0.0 | www.github.com/JGCRI/metis/tree/wild_et_al_2020_ColoradoNexus | <link to DOI dataset> |
-| GCAM | v5.1 | https://zenodo.org/record/3897519#.X20P-mhKiUk | <link to DOI dataset> |
+| metis | v1.0.0 | www.github.com/JGCRI/metis/tree/wild_et_al_2020_ColoradoNexus |
+| GCAM | v5.1 | https://zenodo.org/record/3897519#.X20P-mhKiUk |
   
 
 ## Reproduce my experiement
 
 ### Install Metis
 
-1. Clone and install metis from www.github.com/JGCRI/metis. This Metis GitHub repository has detailed installation instructions.
+1. Clone and install metis to your desired location from www.github.com/JGCRI/metis. This Metis GitHub repository has detailed installation instructions.
 
 ```
 git clone https://github.com/JGCRI/metis.git
 ```
 
-2. Checkout the metis model version used to run this publication's experiments. The git "tag" that points to the version/commit of Metis used to run this publication's experiments is "wild-etal_2020_ColoradoNexus". For this paper, please run the master branch.
+2. Checkout the metis model version used to run this publication's experiments. The git "tag" that points to the version/commit of Metis used to run this publication's experiments is "wild_et_al_2020_ColoradoNexus".
 
 ```
-git checkout tags/wild_et_al_2020_ColoradoNexus -b master
+git checkout tags/wild_et_al_2020_ColoradoNexus
 ```
 
-3. If you previously installed metis, to use the 'tagged' metis version associated with this paper, go to cloned metis folder, open metis.Rproj, select Build -> Document. Then select Build -> Install and Restart. Reload metis.
+3. To use the 'tagged' metis version associated with this paper, go to cloned metis folder, open metis.Rproj, select Build -> Document. Then select Build -> Install and Restart. If you previously installed metis, reload metis.
 
 ```
 devtools::unload("metis")
@@ -76,7 +76,10 @@ library(metis)
 
 ### Reproduce the I/O Experiment
 
-1. Clone reproducible repository into your desired location with ```git clone https://github.com/FeralFlows/wild-etal_2020_ColoradoNexus.git```.
+1. Clone reproducible repository into your desired location.
+```
+git clone https://github.com/FeralFlows/wild-etal_2020_ColoradoNexus.git
+```
 
 2. To run the I/O experiment, run the metis.masterX_io_colorado.R script.
 
