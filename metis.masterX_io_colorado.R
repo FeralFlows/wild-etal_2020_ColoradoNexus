@@ -30,7 +30,7 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 source(paste(getwd(),'/metis_input/extras/MetisWatMod.R',sep=""))
 data <- paste(getwd(),'/metis_input/dataFiles/io/network_data.csv',sep="")
 save_dir <- paste(getwd(), 'outputs/Maps/Tables', sep = '/')
-if(!file.exists(save_dir)){dir.create(file.path(save_dir))}
+if(!file.exists(save_dir)){dir.create(file.path(save_dir), recursive = TRUE)}
 
 # Simulation network/order
 output <- network_main(data)
