@@ -22,9 +22,9 @@ if("metis" %in% rownames(installed.packages()) == F){install.packages("metis")}
 library(metis)
 
 
-dir_metis <- "E:/NEXO-UA/Github/wild-etal_2020_ColoradoNexus/metis_input"
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 setwd("..")
+dir_metis <- paste(getwd(), "metis_input", sep = '/')
 countryName="Argentina"
 
 

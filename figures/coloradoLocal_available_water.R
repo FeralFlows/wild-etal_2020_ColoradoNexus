@@ -25,9 +25,9 @@ pal_ColoradoWater <- c("0-0.004"='#f7fbff', "0.004-0.07"='#deebf7', "0.07-0.25"=
                        '0.25-1'='#9ecae1', '1-2'='#6baed6', '2-3'='#4292c6',
                        '3-4'='#2171b5','3-4.61'='#084594')
 
-dir_metis <- "E:/NEXO-UA/Github/wild-etal_2020_ColoradoNexus/metis_input"
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 setwd("..")
+dir_metis <- paste(getwd(), "metis_input", sep = '/')
 countryName="Argentina"
 
 
