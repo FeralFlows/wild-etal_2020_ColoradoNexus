@@ -78,10 +78,10 @@ Reference for each minted data source for your output data.
 <br />
 
 ## Contributing Models
-| Model | Version | Repository Link | DOI |
-|-------|---------|-----------------|-----|
-| metis | v1.0.0 | www.github.com/JGCRI/metis/tree/wild_et_al_2020_ColoradoNexus | <DOI Link> |
-| GCAM | v5.1.3LAC | https://doi.org/10.5281/zenodo.3897519 | https://doi.org/10.5281/zenodo.3897519 |
+| Model | Version | Repository Link/DOI |
+|-------|---------|---------------------|
+| metis | v1.0.0 | www.github.com/JGCRI/metis/tree/wild_et_al_2020_ColoradoNexus |
+| GCAM | v5.1.3LAC | https://doi.org/10.5281/zenodo.3897519 |
 
 [Back to Contents](#contents)
 
@@ -92,16 +92,19 @@ Reference for each minted data source for your output data.
 ### Install Metis
 
 1. Clone and install metis to your desired location from www.github.com/JGCRI/metis. This Metis GitHub repository has detailed installation instructions.
+
 ```
 git clone https://github.com/JGCRI/metis.git
 ```
 
-2. Checkout the metis model version used to run this publication's experiments. The git "tag" that points to the version/commit of metis used to run this publication's experiments is "wild_et_al_2020_ColoradoNexus".
+2. Checkout the metis model version used to run this publication's experiments. The git "tag" that points to the version/commit of metis used to run this publication's experiments is "wild_et_al_2020_ColoradoNexus". Nevigate into the cloned metis folder and run the following command to checkout the 'tagged' metis version.
+
 ```
 git checkout tags/wild_et_al_2020_ColoradoNexus
 ```
 
 3. To use the 'tagged' metis version associated with this paper, go to cloned metis folder, open metis.Rproj, select Build -> Document. Then select Build -> Install and Restart. If you previously installed metis, reload metis.
+
 ```
 devtools::unload("metis")
 library(metis)
@@ -110,6 +113,7 @@ library(metis)
 ### Reproduce the I/O Experiment
 
 1. Clone reproducible repository into your desired location.
+
 ```
 git clone https://github.com/FeralFlows/wild-etal_2020_ColoradoNexus.git
 ```
