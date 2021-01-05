@@ -122,4 +122,28 @@ git clone https://github.com/FeralFlows/wild-etal_2020_ColoradoNexus.git
 
 3. To produce the figures, run the colorado_FinalMaps.R script within the /figures directory.
 
+<details>
+<summary>Click here to compare your results with figures in the paper.</summary>
+
+| Figure | Location | File Name |
+|:--|:--|:--|
+| Figure 2a - Irrigated cropland allocation | \outputs\ColoradoFinalMaps\Maps_local\localBasin\total_ag_supply\Reference\byYear\ | map_localBasin_total_ag_supply_2010_Reference_local_FREESCALE.pdf |
+| Figure 2a - Total cattle | \outputs\ColoradoFinalMaps\Maps_local\localBasin\total_livestock_supply\Reference\byYear\ | map_localBasin_total_livestock_supply_2010_Reference_local_PRETTY.pdf |
+| Figure 2b - Total water demand | \outputs\ColoradoFinalMaps\Maps_local\localBasin\total_water_demand\Reference\byYear\ | map_localBasin_total_water_demand_2010_Reference_local_PRETTY.pdf |
+| Figure 2b - Total water supply | \outputs\ColoradoFinalMaps\Maps_local\localBasin\available_water\Reference\byYear\ | map_localBasin_available_water_2010_Reference_local_PRETTY.pdf |
+| Figure 2b - Water scarcity | \outputs\ColoradoFinalMaps\Maps_local\localBasin\griddedScarcity\Reference\byYear\ | map_localBasin_griddedScarcity_2010_Reference_local_PRETTY.pdf |
+| Figure 2c - Total electricity supply | \outputs\ColoradoFinalMaps\Maps_local\localBasin\total_elec_supply\Reference\byYear\ | map_localBasin_total_elec_supply_2010_Reference_local_PRETTY.pdf |
+| Figure 2c - Electricity demand | \outputs\ColoradoFinalMaps\Maps_local\localBasin\ElecDemand_Total\Reference\byYear\ | map_localBasin_ElecDemand_Total_2010_Reference_local_PRETTY.pdf |
+| Figure 3A | \outputs\ColoradoFinal\IO\Argentina\Reference\Colorado\ | sankeyAll_aggDem_Reference_Colorado_MultiScenario.pdf |
+| Figure 3B | \outputs\ColoradoSubRegFinal\IO\Argentina\Reference\Corfo\ | sankeySub_aggDem_Reference_Corfo_MultiScenario.pdf |
+| Figure 3C | \outputs\ColoradoSubRegFinal\IO\Argentina\Reference\RioNegro_baja\ | sankeySub_aggDem_Reference_RioNegro_baja_MultiScenario.pdf |
+| Figure 5A | \outputs\ColoradoFinal\IO\Argentina\Reference\Colorado\ | sankeyAll_aggDem_Reference_Colorado_MultiScenario.pdf |
+| Figure 5B | \outputs\ColoradoFinal\IO\Argentina\Policy\Colorado\ | sankeyAll_aggDem_Policy_Colorado_MultiScenario.pdf |
+| Figure 6A | \outputs\ColoradoFinalMaps\Maps_local\localBasin\griddedScarcity\Reference\byYear | map_localBasin_griddedScarcity_2010_Reference_local_PRETTY.pdf |
+| Figure 6B | \outputs\ColoradoFinalMaps\Maps_local\localBasin\griddedScarcity\Policy\byYear | map_localBasin_griddedScarcity_2010_Policy_local_PRETTY.pdf |
+
+
+</details>
+
 [Back to Contents](#contents)
+
