@@ -1,4 +1,4 @@
-# wild-etal_2020_ColoradoNexus
+# wild-etal_2021_ColoradoNexus
 Repository for Wild et al. (2020) paper on Colorado Basin (Argentina) Energy-Water-Land Nexus Planning Study
 
 ## Contents
