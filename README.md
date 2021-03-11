@@ -35,7 +35,7 @@ Wild, T.B. (2020). Colorado Nexus Repository. Github. https://github.com/FeralFl
 
 
 ## Journal Reference
-Journal reference will be updated after acceptance.
+Wild, T.B., Khan, Z., Clarke, L., Hejazi, M., Bereslawski, J., Suriano, M., Roberts, P., Casado, J., Miralles-Wilhelm, F., Gavino Novillo, M., Munoz-Castillo, R., Moreda, F., Yarlagadda, B., Lamontagne, J., Birnbaum, A. (in revision). Integrated Energy-Water-Land Nexus Planning in the Colorado River Basin (Argentina).
 
 [Back to Contents](#contents)
 
