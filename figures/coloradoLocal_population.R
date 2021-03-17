@@ -47,7 +47,7 @@ subRegCol_i = "subRegion" #localBasinsShapeFileColName  #
 subRegType_i = "localBasin"
 nameAppend_i = "_local"
 
-polygonDataTables_i=paste(getwd(),"/outputs/Maps/Tables/population_Reference.csv",sep="")
+polygonDataTables_i=paste(getwd(),"/figures/input/population_Reference.csv",sep="")
 a1<-read.csv(polygonDataTables_i); head(a1); unique(a1$scenario); unique(a1$param); unique(a1$x)
 
 
@@ -65,11 +65,15 @@ scaleRange_i=data.frame(param=c("population"),
                         maxScale=c(5),
                         minScale=c(0))
 numeric2Cat_param <- list("population","param2")
-numeric2Cat_palette <- list(c("xx")) # Can be a custom scale or an R brewer paletter or a metis.pal
 numeric2Cat_legendTextSize <- list(c(0.7),c(NULL))
-numeric2Cat_breaks <- list(c(0, 0.25, 1, 3, 5),c(0,1,2,3,4,5))
-#numeric2Cat_labels <- list(c("None (0<WSI<0.1)","Low (0.1<WSI<0.2)","Moderate (0.2<WSI<0.4)","Severe (WSI>0.4)"),
-#                           c("a","b","c","d"))
+
+
+numeric2Cat_breaks <- list(c(-Inf, 660, 10266, 15448, 20651))
+numeric2Cat_labels <- list(c("0 to 660", "660 to 10226", "10226 to 15448",'15448 to 20651'))
+numeric2Cat_palette <- list(c("pal_hot")) # Can be a custom scale or an R brewer paletter or a metis.pal
+numeric2Cat_list[['numeric2Cat_labels']] <- numeric2Cat_labels
+numeric2Cat_list[['numeric2Cat_breaks']] <- numeric2Cat_breaks
+numeric2Cat_list[['numeric2Cat_palette']] <- numeric2Cat_palette
 numeric2Cat_list <-list(numeric2Cat_param=numeric2Cat_param,
                         numeric2Cat_breaks=numeric2Cat_breaks,
                         numeric2Cat_palette=numeric2Cat_palette,
@@ -89,7 +93,7 @@ boundaryRegionsSelect_i=countryName
 
 # xRange=xRange_i,
 
-metis.mapsProcess(polygonDataTables=polygonDataTables_i,
+metis.mapsProcess(polygonTable=polygonDataTables_i,
                  #gridDataTables=gridDataTables_i,
                  # boundaryRegShape=boundaryRegShape_i,
                  # boundaryRegShpFolder=boundaryRegShpFolder_i,
@@ -112,7 +116,7 @@ metis.mapsProcess(polygonDataTables=polygonDataTables_i,
                  figWidth=6,
                  figHeight=7,
                  paramsSelect = paramsSelect_i,
-                 scaleRange = scaleRange_i,
+                 # scaleRange = scaleRange_i,
                  # indvScenarios=indvScenarios_i,
                  # GCMRCPSSPPol=GCMRCPSSPPol_i,
                  multiFacetCols="scenarioRCP",

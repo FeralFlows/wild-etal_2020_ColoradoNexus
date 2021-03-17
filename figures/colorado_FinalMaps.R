@@ -50,23 +50,27 @@ subRegCol_i =  "subRegion" # localBasinsShapeFileColName
 subRegType_i = "localBasin"
 nameAppend_i = "_local"
 ScenarioNames <- c('Reference', 'Policy')
-# paramNames <- c('total_ag_supply', 'livestock_water_demand', 'available_water', 'total_elec_supply',
-#                 'electricity_water_demand', 'irrigation_water_demand', 'municipal_water_demand',
-#                 'population', 'runoff', 'total_water_demand', 'griddedScarcity', 'total_livestock_supply',
-#                 'Ag_cereals_supply', 'Ag_fruittrees_supply', 'Ag_pasture_supply', 'Ag_specialty_supply',
-#                 'Ag_vegetables_supply', 'population', 'ElecDemand_commercial', 'ElecDemand_export',
-#                 'ElecDemand_industrial', 'ElecDemand_other', 'ElecDemand_residential', 'ElecDemand_Total')
 paramNames <- c('total_ag_supply', 'livestock_water_demand', 'available_water', 'total_elec_supply',
                 'electricity_water_demand', 'irrigation_water_demand', 'municipal_water_demand',
                 'runoff', 'total_water_demand', 'griddedScarcity', 'total_livestock_supply',
                 'Ag_cereals_supply', 'Ag_fruittrees_supply', 'Ag_pasture_supply', 'Ag_specialty_supply',
-                'Ag_vegetables_supply','ElecDemand_commercial', 'ElecDemand_export',
+                'Ag_vegetables_supply', 'population', 'ElecDemand_commercial', 'ElecDemand_export',
                 'ElecDemand_industrial', 'ElecDemand_other', 'ElecDemand_residential', 'ElecDemand_Total')
+# paramNames <- c('total_ag_supply', 'livestock_water_demand', 'available_water', 'total_elec_supply',
+#                 'electricity_water_demand', 'irrigation_water_demand', 'municipal_water_demand',
+#                 'runoff', 'total_water_demand', 'griddedScarcity', 'total_livestock_supply',
+#                 'Ag_cereals_supply', 'Ag_fruittrees_supply', 'Ag_pasture_supply', 'Ag_specialty_supply',
+#                 'Ag_vegetables_supply','ElecDemand_commercial', 'ElecDemand_export',
+#                 'ElecDemand_industrial', 'ElecDemand_other', 'ElecDemand_residential', 'ElecDemand_Total')
 
 for(scen in ScenarioNames){
   for(param in paramNames){
     scenario_name <- scen
-    polygonDataTables_i=paste(getwd(),"/outputs/Maps/Tables/", param, '_', scenario_name, ".csv",sep="")
+    if(param == 'population'){
+      polygonDataTables_i=paste(getwd(),"/figures/input/", param, '_', scenario_name, ".csv",sep="")
+    }else{
+      polygonDataTables_i=paste(getwd(),"/outputs/Maps/Tables/", param, '_', scenario_name, ".csv",sep="")
+    }
     a1 <- read.csv(polygonDataTables_i); head(a1); unique(a1$scenario); unique(a1$param); unique(a1$x)
     xRange_i = seq(from=2000,to=2050,by=5)
     legendPosition_i = c("LEFT","bottom")
@@ -125,6 +129,13 @@ for(scen in ScenarioNames){
       numeric2Cat_breaks <- list(c(-Inf, 0.004, 0.07, 0.25, 1, 2, 3, 4, 4.61))
       numeric2Cat_labels <- list(c("0-0.004", "0.004-0.07", "0.07-0.25",'0.25-1','1-2', '2-3', '3-4', '3-4.61'))
       numeric2Cat_palette <- list(c("pal_wet")) # Can be a custom scale or an R brewer paletter or a metis.pal
+      numeric2Cat_list[['numeric2Cat_labels']] <- numeric2Cat_labels
+      numeric2Cat_list[['numeric2Cat_breaks']] <- numeric2Cat_breaks
+      numeric2Cat_list[['numeric2Cat_palette']] <- numeric2Cat_palette
+    }else if(param %in% 'population'){
+      numeric2Cat_breaks <- list(c(-Inf, 660, 10266, 15448, 20651))
+      numeric2Cat_labels <- list(c("0 to 660", "660 to 10226", "10226 to 15448", "15448 to 20651"))
+      numeric2Cat_palette <- list(c("pal_hot")) # Can be a custom scale or an R brewer paletter or a metis.pal
       numeric2Cat_list[['numeric2Cat_labels']] <- numeric2Cat_labels
       numeric2Cat_list[['numeric2Cat_breaks']] <- numeric2Cat_breaks
       numeric2Cat_list[['numeric2Cat_palette']] <- numeric2Cat_palette
